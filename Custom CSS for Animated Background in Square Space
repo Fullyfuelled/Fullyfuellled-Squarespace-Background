@@ -1,0 +1,55 @@
+@media only screen and (max-width: 2000px) {
+ #header #logoWrapper #logoImage img,
+ #header #siteTitleWrapper #logoImage img {
+   max-height: 280px;
+   max-width: 100%;
+   width: auto;
+   height: auto;
+  }
+#home-section
+{background: linear-gradient(72deg, #7030a0, #000080, #90007f);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 39s ease infinite;
+-moz-animation: AnimationName 39s ease infinite;
+animation: AnimationName 39s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 92%}
+    50%{background-position:100% 9%}
+    100%{background-position:0% 92%}
+  }}
+#smart-data-section
+  {background: linear-gradient(225deg, #ececec, #ff6600);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:91% 0%}
+    50%{background-position:10% 100%}
+    100%{background-position:91% 0%}
+}
+  }}
